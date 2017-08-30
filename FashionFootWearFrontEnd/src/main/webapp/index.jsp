@@ -16,20 +16,20 @@
 	</head>
 
 	<!--  My second commit test for GIT HUB  -->
+	<!--  my third commit  -->
     
 	<body>
 	
 	<!--  working image line <img src="<c:url value="/resources/images/Logo2.png" />"/> -->
 	
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-navbar-light" style="background-color: #e3f2fd;">
   		<div class="container-fluid">
     		<div class="navbar-header">
     		<img src="<c:url value="/resources/images/FaShoesLogo.jpg" />" class="img-rounded" alt="Logo" width="125" height="50">   
       		</div>
       		
       		<div>
-      		
-      		<a class="navbar-brand"> <em> <strong> for fashionable and comfortable Shoes </strong> </em></a>    
+      		<p class="navbar-brand"> <em> <strong> "  for fashionable and comfortable Shoes " </strong> </em></p>    
   
         	</div>
        
@@ -86,15 +86,17 @@
 		   </div>
 	  </div>
 
-<a href = "/WEB-INF/views/register.jsp"> REGISTER </a>
+<a href = "./Register.jsp"> REGISTER </a>
+<a href="helloworld">Click Here</a>
+
 
 <!-- Bottom Navigation Bar -->
-  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <nav class="navbar navbar-inverse navbar-fixed-bottom" style="background-color: #e3f2fd";>
   <div class="container-fluid">
     <div class="navbar-header">
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Home</a></li>
       <li><a href="#">About us</a></li>
     </ul>
   </div>
